@@ -3,6 +3,10 @@ body {
     background-color: #000000;
    }
 
+   a {
+    color: #9DA1A8;
+  }
+
 h1 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 60px;
@@ -14,7 +18,29 @@ h1 {
     font-style: normal;
     font-variant: small-caps;
     text-transform: none;
+    background: rgba(0, 0, 0, 0.5);
 }
+
+.topnav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+.topnav a:hover {
+    background: rgba(157, 161, 168, 0.5);
+    color: #FFFFFF;
+  }
 
 h2 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -27,9 +53,10 @@ h2 {
     font-style: normal;
     font-variant: small-caps;
     text-transform: none;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-p {
+ul {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 18px;
     letter-spacing: 0px;
@@ -40,6 +67,31 @@ p {
     font-style: normal;
     font-variant: normal;
     text-transform: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#resourceSegment {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 figcaption {
@@ -53,4 +105,26 @@ figcaption {
     font-style: normal;
     font-variant: normal;
     text-transform: none;
+    background: rgba(0, 0, 0, 0.5);
+} 
+
+figure {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background: rgba(0, 0, 0, 0.5);
 }
